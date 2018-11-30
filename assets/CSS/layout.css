@@ -1,0 +1,198 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    position: relative;
+    min-height: 100%;
+}
+
+header {
+    height: 80px;
+    position: relative;
+}
+
+nav {
+    float: right;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 0 5px;
+}
+
+#name {
+    width: 250px;
+    height: 80px;
+    margin: 0;
+    position: absolute;
+}
+
+.mainBody {
+    width: 960px;
+    margin: 15px auto;
+    /* margin-bottom: 20px; */
+    position: relative;
+}
+
+h2 {
+    margin: 10px;
+    padding: 0 0 15px 10px;
+}
+
+img {
+    float: left;
+    height: 200px;
+    margin: 0 1em 10px 10px;
+}
+
+.push {
+    height: 80px;
+}
+
+.footer {
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+
+
+/* for portfolio page */
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    margin: 0 0 0 10px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.gallery li {
+    float: left;
+    margin: 10px auto;
+}
+
+#trivia {
+    clear: both;
+}
+
+#rps {
+    clear: both;
+}
+
+li {
+    position: relative;
+}
+
+.photoTag {
+    width: 275px;
+    height: 2.5em;
+    margin: 11px;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* for contact page */
+
+#contactForm {
+    width: 930px;
+    margin: 10px;
+}
+
+.form {
+    width: 100%;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+}
+
+/* just clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* media queries */
+
+@media screen and (max-width: 980px) {
+
+    #header {
+        width: 90%;
+    }
+
+    .mainBody {
+        margin: 15px 0 0 5%;
+        width: 70%;
+        position: left;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainBody {
+        width: 90%;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .mainBody {
+        width: 90%;
+    }
+
+    .header {
+        position: static;
+        height: auto;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        clear: both;
+    }
+
+    /* img {
+        margin: auto;
+    } */
+
+    .form {
+        width: 60%;
+    }
+}

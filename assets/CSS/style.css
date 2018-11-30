@@ -1,0 +1,122 @@
+body {
+    background-image: url(../Images/bananas.png);
+    color: #777777;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+nav {
+    line-height: 5em;
+}
+
+nav a {
+    font-weight: bold;
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #777777;
+    color: #ffffff;
+}
+
+a:active {
+    color: #cccccc;
+}
+
+.about #about {
+    color: #cccccc;
+}
+
+.contact #contact {
+    color: #cccccc;
+}
+
+.portfolio #portfolio {
+    color: #cccccc;
+}
+
+#portfolio {
+    border-left: 2px solid #777777;
+    border-right: 2px solid #777777;
+}
+
+#name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 3.25em;
+}
+
+.mainBody {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+}
+
+img {
+    border: 1px solid #cccccc;
+}
+
+.footer {
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    line-height: 5em;
+    font-size: .75em;
+    border-top: 4px solid #4aaaa5;
+}
+
+
+/* for portfolio page */
+
+
+ul {
+    list-style-type: none;
+}
+
+.photoTag {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2.25em;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+/* for contact page */
+
+.form {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#submit {
+    background: #4aaaa5;
+    font-family: "arial", "helvetica neue", Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#submit:hover {
+    background: #ffffff;
+    color: #4aaaa5;
+}
